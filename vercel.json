@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "name": "edge-forwarder",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/api/forward"
+    }
+  ],
+  "trailingSlash": false,
+  "cleanUrls": true
+}

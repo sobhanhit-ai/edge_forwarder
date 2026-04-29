@@ -1,0 +1,13 @@
+{
+  "name": "edge-forwarder",
+  "version": "0.2.1",
+  "description": "Simple edge runtime forwarding service",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel deploy"
+  }
+}
